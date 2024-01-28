@@ -137,7 +137,30 @@
   background-clip: text;
   color: transparent;
 }
-
+@media (max-width:1144px){
+  .hand_Ai{
+    display:none;
+  }
+  .text_img{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+  }
+  .text_center_1{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .get_start{
+    display:none;
+  }
+  .footer{
+    /* display:grid;
+    grid-template-columns:1fr 1fr; */
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+  }
+}
 @media (max-width:1110px){
   .large{
     max-width:900px;
@@ -179,5 +202,27 @@
     max-width:430px;
     padding-left:12px;
     padding-right:12px;
+  }
+}
+@media (max-width:434px){
+  .text_center_1{
+    max-width:320px;
+  }
+  .text_center{
+    margin-top:2rem;
+  }
+  .next_generation{
+    font-size:55px;
+    line-height:normal;
+  }
+  .small{
+    font-size:15px;
+  }
+  .footer{
+    margin-top:6rem;
+  }
+  .strip{
+    text-align:center;
+    font-size:13px;
   }
 }

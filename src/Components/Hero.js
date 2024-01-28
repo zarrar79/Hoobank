@@ -80,26 +80,26 @@ export const Hero = () => {
 
                 <div className='mx-auto max-w-[1050px] large'>
                     {/* image + text */}
-                    <div className='font-Poppin mt-5'>
+                    <div className='text_center text_img font-Poppin mt-5'>
                         {/* text */}
-                        <div className='mt-[105px]'>
+                        <div className='text_center mt-[105px]'>
                             {/* strip */}
-                            <div className='mb-3 background_1 flex max-w-[408px] p-[0.3rem] items-center rounded-md space-x-3'>
+                            <div className='text_center_1 mb-3 background_1 flex max-w-[408px] p-[0.3rem] items-center rounded-md space-x-3'>
                                 {/* image */}
                                 <div ><img src={Discount}></img></div>
                                 {/* text */}
-                                <div className='font-Poppins text-[18px] font-[400] text-[#FFFFFF99]'><span className='text-[#ffff]'>20%</span> DISCOUNT FOR <span className='text-[#ffff]'>1 MONTH</span> ACCOUNT</div>
+                                <div className='strip font-Poppins text-[18px] font-[400] text-[#FFFFFF99]'><span className='text-[#ffff]'>20%</span> DISCOUNT FOR <span className='text-[#ffff]'>1 MONTH</span> ACCOUNT</div>
                             </div>
                             {/* b-text and round */}
-                            <div className='flex relative'>
+                            <div className='relative'>
                                 {/* b-text */}
-                                <div className='text-[72px] font-[600] text-[#ffff] leading-[100.8px]'>
+                                <div className='next_generation text-[72px] font-[600] text-[#ffff] leading-[100.8px]'>
                                     The Next<br></br> <span className='background_3'>Generation</span><br></br> Payment Method.
                                 </div>
                                 {/* wrap absolute */}
                                 <div className='absolute left-[28rem] top-2'>
                                     {/* round + img */}
-                                    <div className='p-8 flex justify-center border-[#49d0dc] relative rounded-full border-[1.5px] max-w-[200px] h-[130px]'>
+                                    <div className='get_start p-8 flex justify-center border-[#49d0dc] relative rounded-full border-[1.5px] max-w-[200px] h-[130px]'>
                                         {/*round  */}
                                         <div className='flex justify-center text-[18px] font-[500] background_4 mt-1'>Get<br></br>Started</div>
                                         {/* img */}
@@ -108,15 +108,15 @@ export const Hero = () => {
                                 </div>
                             </div>
                             {/* s-text */}
-                            <div className='mt-8 font-[400] text-[18px] leading-[30.6px] text-[#FFFFFFB2]'>Our team of experts uses a methodology to identify<br></br> the credit cards most likely to fit your needs.<br></br>
+                            <div className='small mt-8 font-[400] text-[18px] leading-[30.6px] text-[#FFFFFFB2]'>Our team of experts uses a methodology to identify<br></br> the credit cards most likely to fit your needs.<br></br>
                                 We examine annual percentage rates, annual fees.</div>
 
                         </div>
                         {/* image */}
-                        <div className='absolute top-[8rem] right-0'><img className='max-w-[550px]' src={AI}></img></div>
+                        <div className='hand_Ai absolute top-[8rem] right-0'><img className='max-w-[550px]' src={AI}></img></div>
                     </div>
                      {/* footer of hero */}
-                <div className='mt-[8rem] font-Poppins flex justify-between items-center'>
+                <div className='footer mt-[8rem] font-Poppins flex justify-between items-center'>
                     {/* amount */}
                     <div className='font-[600] text-[40.89px] text-[#ffff]'>3800+</div>
                     {/* text */}
