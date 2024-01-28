@@ -39,10 +39,10 @@ export const Hero = () => {
                             {/* components */}
                             <div className='r_compo font-[400] text-[16px] text-[#FFFFFFB2] flex space-x-16'>
                                 {/* texts */}
-                                <div className='cursor-pointer'>Home</div>
-                                <div className='cursor-pointer'>About Us</div>
-                                <div className='cursor-pointer'>Features</div>
-                                <div className='cursor-pointer'>Solution</div>
+                                <div className='hover:text-[#ffff] transition duration-[0.6s] hover:transition hover:duration-[0.6s] cursor-pointer'>Home</div>
+                                <div className='hover:text-[#ffff] transition duration-[0.6s] hover:transition hover:duration-[0.6s] cursor-pointer'>About Us</div>
+                                <div className='hover:text-[#ffff] transition duration-[0.6s] hover:transition hover:duration-[0.6s] cursor-pointer'>Features</div>
+                                <div className='hover:text-[#fff] transition duration-[0.6s] hover:transition hover:duration-[0.6s] cursor-pointer'>Solution</div>
                             </div>
                             {/* Hamburger */}
                             <div id="menuToggle" onClick={display}>
@@ -99,7 +99,7 @@ export const Hero = () => {
                                 {/* wrap absolute */}
                                 <div className='absolute left-[28rem] top-2'>
                                     {/* round + img */}
-                                    <div className='get_start p-8 flex justify-center border-[#49d0dc] relative rounded-full border-[1.5px] max-w-[200px] h-[130px]'>
+                                    <div className='get_start hover:bg-[#49454599] cursor-pointer transition duration-[0.6s] hover:transition hover:duration-[0.6s] p-8 flex justify-center border-[#49d0dc] relative rounded-full border-[1.5px] max-w-[200px] h-[130px]'>
                                         {/*round  */}
                                         <div className='flex justify-center text-[18px] font-[500] background_4 mt-1'>Get<br></br>Started</div>
                                         {/* img */}
