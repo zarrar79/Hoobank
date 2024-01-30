@@ -136,11 +136,39 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  transition: 0.9s;
+  transform:0.9s;
+}
+.background_main{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+}
+.background_main:hover{
+  background:black;
+  color: white;
+  transition: 0.9s;
+  transform:0.9s;
+}
+.container_bg{
+  background: linear-gradient(174deg, rgba(80, 77, 77, 1) 0%, rgba(20, 16, 29, 1) 100%);
+  box-shadow: 0px 20px 100px -10px #42475B1A;
+
 }
 @media (max-width:1144px){
   .hand_Ai{
     display:none;
   }
+  .grid_container{
+    maring-left:2rem;
+    margin-right:2rem;
+    display:block;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .right_container{
+    margin-left:0;
+      margin-top:6rem;
+    }
   .text_img{
     display:flex;
     justify-content:center;
@@ -198,6 +226,10 @@
   }
 }
 @media (max-width:511px){
+  .grid_container_button{
+    display:flex;
+    justify-content:center;
+  }
   .large{
     max-width:430px;
     padding-left:12px;
