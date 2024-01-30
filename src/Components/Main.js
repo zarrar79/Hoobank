@@ -3,6 +3,11 @@ import Star from './Star.png'
 import Verify from './Verify.png'
 import Telegram from './Telegram.png'
 import PayPal from './Paypal.png'
+import Red from './Red.png'
+import Vector from './Vector.png'
+import Purple from './Purple.png'
+import Dribble from './Dribble.png'
+import Netflix from './Netflix.png'
 export const Main = () => {
     return (
         <>
@@ -83,7 +88,7 @@ export const Main = () => {
                             </div>
                         </div>
                         {/* Cards Section */}
-                        <div className='font-Poppins'>
+                        <div className='font-Poppins mt-36'>
                             {/* left */}
                             <div className='relative'>
                                 {/* PayPal Card */}
@@ -117,30 +122,76 @@ export const Main = () => {
                                             <div><button className='font-[400] text-[12px] background_3 px-3 py-2  border-solid border rounded border-[#49d0dc]'>Change</button></div>
                                         </div>
                                         {/* button */}
-                                        <div><button className='rounded-xl px-[68px] py-[9px] font-[500] text-[12px] text-[#00030D] background_main'>Make Payment</button></div>
+                                        <div><button className='rounded-xl px-[44px] py-[9px] font-[500] text-[12px] text-[#00030D] background_main'>Make Payment</button></div>
                                     </div>
                                 </div>
                                 {/* social Card */}
-                                <div>
+                                <div className='max-w-[335px]'>
                                     {/* Inner Parent */}
                                     <div>
                                         {/* header */}
-                                        <div></div>
+                                        <div className='font-[600] text-[22px] leading-[22px] text-[#ffff]'>Last Transaction</div>
                                         {/* box 1 */}
-                                        <div>
+                                        <div className='flex items-center justify-between'>
                                             {/* left */}
-                                            <div>
+                                            <div className='flex'>
                                                 {/* image box */}
-                                                <div></div>
+                                                <div><img src={Dribble}></img></div>
                                                 {/* text box */}
-                                                <div></div>
+                                                <div className='ml-3'>
+                                                    <div className='font-[600] text-[16px] text-[#ffff]'>Dribbble Pro</div>
+                                                    <div className='font-[400] text-[12px] text-[#FFFFFFB2]'>15 Days ago</div>
+                                                </div>
+
                                             </div>
                                             {/* right */}
-                                            <div>
+                                            <div className='flex items-center space-x-2'>
                                                 {/* image */}
-                                                <div></div>
+                                                <div><img src={Red}></img></div>
                                                 {/* text */}
-                                                <div></div>
+                                                <div className='font-[400] text-[14px] text-[#ffff]'>-$250,93</div>
+                                            </div>
+                                        </div>
+                                        {/* box 2 */}
+                                        <div className='flex items-center justify-between'>
+                                            {/* left */}
+                                            <div className='flex'>
+                                                {/* image box */}
+                                                <div><img src={Netflix}></img></div>
+                                                {/* text box */}
+                                                <div className='ml-3'>
+                                                    <div className='font-[600] text-[16px] text-[#ffff]'>Netflix</div>
+                                                    <div className='font-[400] text-[12px] text-[#FFFFFFB2]'>4 Days ago</div>
+                                                </div>
+
+                                            </div>
+                                            {/* right */}
+                                            <div className='flex items-center space-x-2'>
+                                                {/* image */}
+                                                <div><img src={Red}></img></div>
+                                                {/* text */}
+                                                <div className='font-[400] text-[14px] text-[#ffff]'>-$250,93</div>
+                                            </div>
+                                        </div>
+                                        {/* box 3 */}
+                                        <div className='flex items-center justify-between'>
+                                            {/* left */}
+                                            <div className='flex'>
+                                                {/* image box */}
+                                                <div><img src={Vector}></img></div>
+                                                {/* text box */}
+                                                <div className='ml-4'>
+                                                    <div className='font-[600] text-[16px] text-[#ffff]'>Manulife Cash</div>
+                                                    <div className='font-[400] text-[12px] text-[#FFFFFFB2]'>4 Days ago</div>
+                                                </div>
+
+                                            </div>
+                                            {/* right */}
+                                            <div className='flex items-center space-x-2'>
+                                                {/* image */}
+                                                <div><img src={Purple}></img></div>
+                                                {/* text */}
+                                                <div className='font-[400] text-[14px] text-[#ffff]'>-$250,93</div>
                                             </div>
                                         </div>
                                     </div>
