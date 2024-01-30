@@ -8,7 +8,7 @@ export const Main = () => {
             {/* background */}
             <div className='bg-[#0c101a] pt-[0.5px]'>
                 {/* fluid container */}
-                <div className='max-w-[1100px] mx-auto'>
+                <div className='max-w-[1100px] mx-auto large'>
                     {/* Parent */}
                     <div>
                         {/* grid */}
@@ -18,9 +18,9 @@ export const Main = () => {
                                 {/* left parent */}
                                 <div className='space-y-5'>
                                     {/* large */}
-                                    <div className='text-[#ffff] font-[600] text-[48px] leading-[76.8px]'>You do the business, we’ll handle the money.</div>
+                                    <div className='grid_container_left text-[#ffff] font-[600] text-[48px] leading-[76.8px]'>You do the business, we’ll handle the money.</div>
                                     {/* small */}
-                                    <div className='font-[400] text-[18px] text-[#FFFFFFB2]'>With the right credit card, you can improve your financial life by building credit,
+                                    <div className='grid_container_left font-[400] text-[18px] text-[#FFFFFFB2]'>With the right credit card, you can improve your financial life by building credit,
                                         earning rewards and saving money. But with hundreds of credit cards on the market.</div>
                                     {/* button */}
                                     <div className='grid_container_button'><button className='hover:transition hover:duration-[0.4s] transition duration-[0.4s] mt-7 text-center background_main text-[#00040E] text-[18px] font-[500] py-4 px-8 rounded-[10px]'>Get Started</button></div>

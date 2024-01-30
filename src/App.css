@@ -203,6 +203,14 @@
   .large{
     max-width:660px;
   }
+  .grid_container_button{
+    display:flex;
+    justify-content:center;
+  }
+  .grid_container_left{
+     display:flex;
+     justify-content:center;
+  }
 }
 @media (max-width:715px){
   .large{
@@ -226,10 +234,6 @@
   }
 }
 @media (max-width:511px){
-  .grid_container_button{
-    display:flex;
-    justify-content:center;
-  }
   .large{
     max-width:430px;
     padding-left:12px;
