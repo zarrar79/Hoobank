@@ -201,6 +201,23 @@
   }
 }
 @media (max-width:964px){
+  .cards_grid{
+    text-align:center;
+    display:block;
+    margin-top:6rem;
+  }
+  .images_store{
+    justify-content:center;
+  }
+  .right_abs{
+    margin-top:10rem;
+  }
+  .right_side{
+    margin:0px;
+  }
+  .social{
+    display:none;
+  }
   .large{
     max-width:788px;
   }
